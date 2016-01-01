@@ -1,9 +1,11 @@
 class Guardian < Formula
-  homepage "https://github.com/f/guardian"
-  url "https://github.com/f/homebrew-guardian/archive/v0.0.1.zip"
-  sha256 "a6d132838972893a29c6c2d88616192477c592d9a2b46027824e83bed1290b52"
+  desc "Guardian is a file watcher"
+  homepage "http://github.com/f/guardian"
+  url "https://github.com/f/guardian/archive/v0.0.1.tar.gz"
+  version "0.0.1"
+  sha256 "5e67c0aac9336621edf9c97ab372613bed6f7ceedba4d16e603513f8a90a678c"
 
   def install
-  	bin.install "guardian"
+    bin.install "guardian"
   end
 end
