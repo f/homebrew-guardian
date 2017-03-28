@@ -7,8 +7,10 @@ class Guardian < Formula
   revision 3
   
   depends_on "libpcl"
+  depends_on "crystal-lang"
 
   def install
+    system "crystal", "build", "--release", "src/guardian.cr"
     bin.install "guardian"
   end
 end
