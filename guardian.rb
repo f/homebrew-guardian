@@ -1,10 +1,10 @@
 class Guardian < Formula
   desc "Guardian is a file watcher"
   homepage "http://github.com/f/guardian"
-  url "https://github.com/f/guardian/archive/v0.0.4.tar.gz"
-  version "0.0.4"
-  sha256 "ebc1cc4cb3dab84886e7ba78d40dc442c22ad1d065bddf3b5ba1ad38195518c7"
-  revision 3
+  url "https://github.com/f/guardian/archive/v0.0.5.tar.gz"
+  version "0.0.5"
+  sha256 "b7fb9f1c1fc0994888b14a1848e73e6aba28ac2b15964b1068f0d47c4a29b027"
+  revision 4
   
   depends_on "libpcl"
   depends_on "crystal-lang"
